@@ -6,4 +6,4 @@ The j2000tonow code has functions taken directly from the Tracking Beam Schedule
 observation. I compute the RA and DEC from here and input it manually into the RTB.cpp.
 
 The Off_BF_phase_gen code contains parts of the code from baseband_analysis which compute the hour angle and phases. The 'date_unix' returned in this code 
-is maually input into the RTB.cpp to find the hour angle for the same time. 
+is maually input into the RTB.cpp to find the hour angle for the same time. This code needs to run in a baseband-analysis docker container on frb-analysis.
